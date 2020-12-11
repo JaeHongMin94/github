@@ -30,6 +30,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" />
   <link rel="stylesheet" href="./css/main.css">
+
+  <script defer src="./js/main.js"></script>
 </head>
 <body>
 
@@ -42,7 +44,7 @@
           <div class="logo">
             <a href="#">GitHub</a>
           </div>
-          <ul class="main-menu">
+          <ul class="main-menu toggle">
             <li><a href="#">Personal</a></li>
             <li><a href="#">Open source</a></li>
             <li><a href="#">Business</a></li>
@@ -50,7 +52,7 @@
           </ul>
         </div>
 
-        <div class="sign-group float--right">
+        <div class="sign-group float--right toggle">
           <div class="btn-group">
             <a href="#" class="btn sign-in">Sign in</a>
             <a href="#" class="btn btn--primary sign-up">Sign up</a>
@@ -65,6 +67,8 @@
             <li><a href="#">Support</a></li>
           </ul>
         </div>
+
+        <div id="toggle-btn">Header Menu Toggle Button</div>
       </div>
     </header>
     <!-- [E]HEADER -->
